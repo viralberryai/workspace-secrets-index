@@ -1,3 +1,18 @@
+# workspace-secrets-index
+
+## Overview
+This repository maps and indexes workspace infrastructure to securely
+store and manage secrets. Key changes include:
+
+- **Memory Security Map** — Restructured in-memory security layer to
+  enforce access controls on sensitive data
+- **Infrastructure Mapping** — Added indexing of workspace infra
+  components to track and resolve secret storage locations
+- **Secret Store Integration** ��� Workspace secrets are now centrally
+  indexed, reducing scattered config references across the codebase
+
+---
+
 # 🦞 OpenClaw — Personal AI Assistant
 
 <p align="center">
