@@ -8,8 +8,10 @@ store and manage secrets. Key changes include:
   enforce access controls on sensitive data
 - **Infrastructure Mapping** — Added indexing of workspace infra
   components to track and resolve secret storage locations
-- **Secret Store Integration** ��� Workspace secrets are now centrally
+- **Secret Store Integration** — Workspace secrets are now centrally
   indexed, reducing scattered config references across the codebase
+
+Need help getting started? Visit [synthwork.app](https://synthwork.app) and use the contact page.
 
 ---
 
