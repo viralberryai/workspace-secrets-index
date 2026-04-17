@@ -27,7 +27,8 @@ Do not manually reread startup files unless:
 
 1. The user explicitly asks
 2. The provided context is missing something you need
-3. You need a deeper follow-up read beyond the provided startup context
+3. Read `MAP.md` — workspace index, find project paths
+4. You need a deeper follow-up read beyond the provided startup context
 
 ## Memory
 
@@ -215,6 +216,21 @@ Periodically (every few days), use a heartbeat to:
 Think of it like a human reviewing their journal and updating their mental model. Daily files are raw notes; MEMORY.md is curated wisdom.
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
+
+## Secret and Key Management Protocol
+
+When a new API key, token, password, or credential is introduced:
+
+1. Store the value in `/root/.openclaw/workspace/.env.<service>`
+2. Set permissions immediately: `chmod 600` on the file
+3. Register the name only — never the value — in TOOLS.md under Active Keys
+   with a one-line description of what it is used for
+4. If it is infrastructure (IP address, hostname, port, SSH config):
+   store in INFRA.md instead, apply chmod 600, reference from TOOLS.md
+5. Never write a key value in TOOLS.md, MEMORY.md, daily logs,
+   chat responses, or any messaging surface
+
+> Rule: Values go in protected .env files. Names go in TOOLS.md.
 
 ## Make It Yours
 

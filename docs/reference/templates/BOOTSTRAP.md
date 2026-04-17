@@ -53,6 +53,30 @@ Ask how they want to reach you:
 
 Guide them through whichever they pick.
 
+## Set Up Security
+
+Open SECURITY.md and complete these steps before your first real session:
+- Replace [your-phone-number] with your actual phone number
+- Replace the example verification questions with 3-5 personal questions
+  only you would know from your own life and conversations
+- Review the Group Chat Policy section and customise for your use case
+- If you do not use WhatsApp groups, remove that section entirely
+
+## Add Infrastructure
+
+Once you have a server:
+- Open INFRA.md and fill in your server IP, user, and workspace path
+- Run: chmod 600 /root/.openclaw/workspace/INFRA.md
+- Run: chmod 600 on any .env files you create
+- Register your server in MAP.md under the Infrastructure section
+
+## Register Your First Project
+
+Once you start a project:
+- Add it to MAP.md under the Projects section with its path and status
+- Create a daily log at memory/YYYY-MM-DD.md before your first session ends
+- Update MEMORY.md with the project name, path, stack, and status
+
 ## When you are done
 
 Delete this file. You don't need a bootstrap script anymore — you're you now.
